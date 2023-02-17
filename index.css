@@ -164,7 +164,7 @@ header table {
 #rightImage {
     width:50%;
     height:40vh;
-    background:url("https://github.com/frgerardi/frgerardi.github.io/blob/main/20220817_100227.png") center center;
+    background:src("20220817_100227.png") center center;
     background-size:cover;
     background-repeat:no-repeat;
 }
