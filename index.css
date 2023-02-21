@@ -114,7 +114,7 @@ header table {
 }
 #about {
     width:84% !important;
-    height:50vh;
+    height:55vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -170,7 +170,7 @@ header table {
 }
 #rightImage {
     width:100%;
-    height:50vh;
+    height:55vh;
     background:url("20220817_100227.png") center center;
     background-size: 100% 70%;
     background-repeat:no-repeat;
