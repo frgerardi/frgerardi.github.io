@@ -221,9 +221,13 @@ header table {
     border-bottom:4px solid rgb(255, 44, 90);
     width:10%;
 }
-#skills column {
-  float: left;
-  width: 33.33%;
+#skills table {
+    width:70%;
+    margin-top:1vh;
+}
+#skills table tr td {
+    width:20% !important;
+    text-align:left;
 }
 #contact {
     width:92vw;
