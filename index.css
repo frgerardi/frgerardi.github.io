@@ -37,7 +37,7 @@ header {
     padding:6vh 4vw;
     position:fixed;
     font-weight:bold;
-    background: url("http://upload.wikimedia.org/wikipedia/commons/8/86/Jefferson_Park_in_Chicago.JPG") no-repeat top center fixed;
+    background: transparent;
     color:#fff;
     transition:0.4s ease-in-out;
     z-index:2;
