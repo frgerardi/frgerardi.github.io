@@ -218,11 +218,6 @@ header table {
   float: left;
   width: 33.33%;
 }
-#skills row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 #contact {
     width:92vw;
     padding:6vh 4vw;
