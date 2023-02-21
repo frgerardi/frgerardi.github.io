@@ -214,11 +214,15 @@ header table {
     border-bottom:4px solid rgb(255, 44, 90);
     width:10%;
 }
-#skills table {
-    width:100%;
+.column {
+  float: left;
+  width: 33.33%;
 }
-#skills table tr td {
-    width:50%;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 }
 #contact {
     width:92vw;
