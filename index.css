@@ -38,13 +38,14 @@ header {
     position:fixed;
     font-weight:bold;
     font-size:16px;
-    background: transparent;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/2/2f/Hubble_ultra_deep_field.jpg');
     color:#fff;
     transition:0.4s ease-in-out;
     z-index:2;
 }
 header table {
     width:100%;
+    background: transparent
 }
 #logo {
     width:20%;
