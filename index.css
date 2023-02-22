@@ -7,10 +7,11 @@ body {
     max-width:100vw;
     overflow-x:hidden;
     scroll-behavior: smooth;
-    background: url('https://upload.wikimedia.org/wikipedia/commons/2/2f/Hubble_ultra_deep_field.jpg');
+    background: linear-gradient( rgba(120,120,120, 0.4) 100%, rgba(120,120,120, 0.4)100%), url('https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/03/the_cosmic_web_artist_s_impression/21874407-1-eng-GB/The_cosmic_web_artist_s_impression_pillars.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: auto;
 }
 #loading {
     width: 100vw;
@@ -116,7 +117,7 @@ header table {
 #top_part {
     margin-right: 2vh;
     margin-left: 2vh;
-    background:rgb(255, 255, 255);
+    background:rgba(255, 255, 255,0.9);
 }
 #top_part tr td{
     width:25%;
@@ -163,7 +164,7 @@ header table {
     font-size:18px;
     font-family: 'Poppins', sans-serif;
     color:rgb(231, 155, 97);
-    background:#fff;
+    background:transparent;
     border:3px solid rgb(231, 155, 97);
     padding:8px 40px;
     width:60%;
@@ -182,27 +183,20 @@ header table {
     width:100%;
     height:55vh;
     background:url("extras_/profile_pic.png") center center;
-    background-size: 100% 70%;
+    background-size: contain;
     background-repeat:no-repeat;
 }
 #work {
     margin-right: 4vh;
     margin-left: 4vh;
     padding:6vh 4vw;
-    background:rgb(255, 255, 255);
+    background:rgba(255, 255, 255,0.9);
     font-weight:normal;
 }
 #work h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(231, 155, 97);
     width:6%;
-}
-#photos {
-    width:100%;
-    columns:3;
-    column-gap:4%;
-    z-index:1;
-    transition:0.4s ease-in-out;
 }
 #work img {
     margin:4.5% 0px;
@@ -217,7 +211,7 @@ header table {
     margin-left: 4vh;
     padding:6vh 4vw;
     font-weight:bold;
-    background:rgb(255, 255, 255);
+    background:rgba(255, 255, 255,0.9);
 }
 #bio h1 {
     padding:5px 0px;
@@ -228,7 +222,7 @@ header table {
     margin-right: 4vh;
     margin-left: 4vh;
     padding:6vh 4vw;
-    background:rgb(255, 255, 255);
+    background:rgba(255, 255, 255,0.9);
 }
 #skills h1 {
     padding:5px 0px;
@@ -247,7 +241,7 @@ header table {
     margin-right: 4vh;
     margin-left: 4vh;
     padding:6vh 4vw;
-    background:rgb(255, 255, 255);
+    background:rgba(255, 255, 255, 0.9);
 }
 #contact h1 {
     padding:5px 0px;
