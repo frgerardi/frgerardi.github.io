@@ -343,17 +343,6 @@ button:focus {
 }
 
 @media (max-width:480px){
-        #photos {
-    columns:1;
-    column-gap:0%;
-    }
-    #photos img {
-        margin:2% 0px;
-    }
-    #photos img:hover {
-        transform: scale(1);
-        cursor: pointer;
-    }
     #rightImage {
         display:none;
     }
@@ -363,6 +352,7 @@ button:focus {
     #top_part tr td{
         width:100%;
         text-align:center;
+        font-size:12px;
     }
     #about {
         width:92% !important;
