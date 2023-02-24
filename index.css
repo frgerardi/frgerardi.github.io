@@ -390,9 +390,11 @@ button:focus {
     }
     #contact form input {
         width:90%;
+        font-size: 14px;
     }
     #contact form textarea {
         width:90%;
+        font-size: 14px;
     }
     #work h1 {
         width:19%;
@@ -439,9 +441,6 @@ button:focus {
     }
     #contact {
         font-size:14px;
-    }
-    #contact form {
-        font-size: 14px;
     }
     header {
         width:100%;
