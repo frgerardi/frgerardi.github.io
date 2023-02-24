@@ -241,13 +241,6 @@ header table {
     width:33.3% !important;
     text-align:center;
 }
-#skills_small {
-    margin-right: 4vh;
-    margin-left: 4vh;
-    width: 88%;
-    padding:6vh 4vw;
-    background:rgba(255, 255, 255,0.9);
-}
 #contact {
     margin-right: 4vh;
     margin-left: 4vh;
@@ -425,24 +418,21 @@ button:focus {
     #bio p {
         font-size: 14px;
     }
-    #skills_small h1 {
+    #skills h1 {
         font-size: 28px;
     }
-    #skills_small h2 {
+    #skills h2 {
         font-size: 20px;
     }
-    #skills_small p {
+    #skills p {
         font-size: 14px;
     }
-    #skills_small table {
+    #skills table {
         font-size:12px;
     }
-    #skills_small table tr td {
+    #skills table tr td {
         width:100%;
         text-align:center;
-    }
-    #skills{
-        display: none;    
     }
     #contact h1 {
         width:33%;
@@ -545,9 +535,6 @@ button:focus {
     }
     #contact h1 {
         width:33%;
-    }
-    #skills_small {
-        display: none;
     }
     header {
         width:96vw;
