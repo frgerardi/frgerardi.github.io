@@ -434,6 +434,7 @@ button:focus {
     }
     #skills table tr td {
         display: block;
+        width: 100%;
     }
     #contact h1 {
         width:33%;
