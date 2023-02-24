@@ -432,7 +432,7 @@ button:focus {
     #skills table {
         font-size:12px;
     }
-    #skills table td {
+    #skills table tr td {
         display: block;
     }
     #contact h1 {
