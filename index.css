@@ -398,6 +398,9 @@ button:focus {
     #work h1 {
         width:19%;
     }
+    #work img {
+        width:40%;   
+    }
     #bio h1 {
         width:25%;
     }
