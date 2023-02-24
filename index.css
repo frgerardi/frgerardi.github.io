@@ -351,8 +351,7 @@ button:focus {
     #top_part tr td{
         width:100%;
         text-align:center;
-        font-size:12px; 
-        transform:rotate(-90deg);
+        font-size:12px;
     }
     #about {
         width:92% !important;
@@ -414,10 +413,11 @@ button:focus {
         background:#fff;
         padding:4vh 2vw;
         position:absolute;
+        display:none
     }
     #header table tr td {
         width:100%;
-        display:block;
+        display:none;
         text-align:center;
         padding:15px 0px;
     }
