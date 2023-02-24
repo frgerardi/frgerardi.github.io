@@ -446,7 +446,8 @@ button:focus {
     }
     header {
         width:100%;
-        background:#fff;
+        background:transparent;
+        font-size: 12px;
         padding:4vh 2vw;
         position:absolute;
     }
