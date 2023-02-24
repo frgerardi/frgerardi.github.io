@@ -401,6 +401,9 @@ button:focus {
     #work h2 {
         font-size: 20px;
     }
+    #work p {
+        font-size: 14px;
+    }
     #work img {
         width:80%;  
         margin:4% 10%;
@@ -412,11 +415,17 @@ button:focus {
     #bio h2 {
         font-size: 20px;
     }
+    #bio p {
+        font-size: 14px;
+    }
     #skills h1 {
         font-size: 28px;
     }
     #skills h2 {
         font-size: 20px;
+    }
+    #skills p {
+        font-size: 14px;
     }
     #skills table {
         font-size:12px;
@@ -431,6 +440,9 @@ button:focus {
     }
     #contact {
         font-size:14px;
+    }
+    #contact form {
+        font-size: 14px;
     }
     header {
         width:100%;
