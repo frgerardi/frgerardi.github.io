@@ -342,7 +342,7 @@ button:focus {
     background: rgba(0, 0, 0,0.8); 
 }
 
-@media (min-width : 100px) and (max-width:480px){
+@media screen and (min-width : 100px) and (max-width:480px){
     #rightImage {
         display:none;
     }
@@ -404,7 +404,7 @@ button:focus {
         width:33%;
     }
     header {
-        width:96vw;
+        width:100%;
         background:#fff;
         padding:4vh 2vw;
         position:absolute;
@@ -420,7 +420,7 @@ button:focus {
     }
 }
 
-@media (max-width: 1000px){
+@media screen and  (max-width: 1000px){
     #photos {
     columns:1;
     column-gap:0%;
