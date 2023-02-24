@@ -238,7 +238,7 @@ header table {
     margin-top:1vh;
 }
 #skills table tr td {
-    width:33.3% !important;
+    width:33.3%;
     text-align:center;
 }
 #contact {
@@ -434,7 +434,7 @@ button:focus {
     }
     #skills table tr td {
         display: block;
-        width: 100% !important;
+        width: 100%;
     }
     #contact h1 {
         width:33%;
@@ -444,16 +444,13 @@ button:focus {
         font-size:14px;
     }
     header {
-        width:100%;
-        background:transparent;
-        font-size: 12px;
-        padding:4vh 2vw;
-        position:absolute;
+        transition:none;
     }
     #header table tr td {
         width:100%;
         text-align:center;
         display: none;
+        background:transparent;
         padding:15px 0px;
     }
     #navigation {
