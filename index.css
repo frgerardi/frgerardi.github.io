@@ -423,10 +423,7 @@ button:focus {
         padding:15px 0px;
     }
     #navigation {
-        width:100%;
-    }
-    #navigation a {
-        color:#000;
+        display: none;
     }
 }
 
