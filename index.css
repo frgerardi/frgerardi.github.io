@@ -437,11 +437,9 @@ button:focus {
         background:#fff;
         padding:4vh 2vw;
         position:absolute;
-        display:none;
     }
     #header table tr td {
         width:100%;
-        display:none;
         text-align:center;
         padding:15px 0px;
     }
