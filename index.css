@@ -430,9 +430,8 @@ button:focus {
     #skills table {
         font-size:12px;
     }
-    #skills table tr td {
-        width:100%;
-        text-align:center;
+    #skills table td {
+        display: block;
     }
     #contact h1 {
         width:33%;
