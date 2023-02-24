@@ -347,6 +347,7 @@ button:focus {
         display:none;
     }
     #top_part {
+        width:100%;
         border:0px;
     }
     #top_part tr td{
