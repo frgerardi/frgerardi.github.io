@@ -396,10 +396,10 @@ button:focus {
     }
     #work h1 {
         width:19%;
-        font-size: 30px;
+        font-size: 28px;
     }
     #work h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
     #work img {
         width:80%;  
@@ -407,16 +407,16 @@ button:focus {
     }
     #bio h1 {
         width:25%;
-        font-size: 30px;
+        font-size: 28px;
     }
     #bio h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
     #skills h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
     #skills h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
     #skills table {
         font-size:12px;
@@ -427,7 +427,7 @@ button:focus {
     }
     #contact h1 {
         width:33%;
-        font-size: 30px;
+        font-size: 28px;
     }
     #contact {
         font-size:14px;
@@ -441,6 +441,7 @@ button:focus {
     #header table tr td {
         width:100%;
         text-align:center;
+        display: none;
         padding:15px 0px;
     }
     #navigation {
