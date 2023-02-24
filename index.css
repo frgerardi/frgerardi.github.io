@@ -407,7 +407,7 @@ button:focus {
     #skills table {
         font-size:12px;
     }
-    table tr td {
+    #skills table tr td {
         width:100%;
         text-align:center;
     }
