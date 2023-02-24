@@ -357,7 +357,7 @@ button:focus {
     }
     #about {
         width:92% !important;
-        height:75vh;
+        height:100vh;
         font-size:8px;
         padding-top:20vh !important;
         text-align:center;
