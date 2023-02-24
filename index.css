@@ -359,6 +359,8 @@ button:focus {
         width:92% !important;
         height:75vh;
         padding-top:20vh !important;
+        display:flex;
+        flex-direction:row;
         text-align:center;
         padding:0px 4%;
     }
