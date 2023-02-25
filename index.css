@@ -352,6 +352,7 @@ button:focus {
         width:100%;
         text-align:center;
         font-size:12px;
+        display:block;
     }
     #about {
         width:92% !important;
@@ -367,6 +368,7 @@ button:focus {
     }
     #about table tr td {
         text-align:center;
+        display:inline;
     }
     .btn_one {
     padding:6px 30px;
@@ -479,7 +481,7 @@ button:focus {
 }
 
 
-@media (min-width: 600px) and (max-width: 1000px){
+@media (max-width: 1000px){
     #photos {
     columns:1;
     column-gap:0%;
