@@ -452,7 +452,7 @@ button:focus {
         display: none;
         background:transparent;
         padding:2px 0px;
-        font-size: 10px
+        font-size: 12px
     }
     #navigation {
         display: none;
@@ -460,10 +460,13 @@ button:focus {
     #navigation a {
         color:none;
         text-decoration:none;
-        padding:0px 2px;
+        padding:0px 3px;
         border-bottom:none;
         margin-left:0vw;
         transition:none;
+    }
+    #intersect_transparency {
+        height:10vh;
     }
     #magnify {
         display: none;
