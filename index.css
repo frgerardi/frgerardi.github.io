@@ -348,7 +348,7 @@ button:focus {
     #top_part {
         width:100%;
         border:0px;
-        height: 80vh;
+        height: 70vh;
     }
     #top_part tr td{
         width:100%;
@@ -358,7 +358,7 @@ button:focus {
     }
     #about {
         width:92% !important;
-        height:80vh;
+        height:70vh;
         font-size:8px;
         padding-top:5vh !important;
         text-align:center;
@@ -366,7 +366,7 @@ button:focus {
     }
     #rightImage {
         margin-top: 10vh
-        height:80vh;
+        height:70vh;
     }
     #about table {
         width:100%;
