@@ -343,124 +343,8 @@ button:focus {
     background: rgba(0, 0, 0,0.8); 
 }
 
-@media (max-width:480px){
-    #top_part {
-        width:100%;
-        border:0px;
-    }
-    #top_part tr td{
-        width:100%;
-        text-align:center;
-        font-size:12px;
-        display:block;
-    }
-    #about {
-        width:92% !important;
-        height:60vh;
-        font-size:8px;
-        padding-top:20vh !important;
-        text-align:center;
-        padding:0px 4%;
-    }
-    #rightImage {
-        margin-top: 10vh
-        height:60vh;
-    }
-    #about table {
-        width:100%;
-        margin-top:6vh;
-    }
-    #about table tr td {
-        text-align:center;
-        display:inline;
-    }
-    .btn_one {
-    padding:6px 30px;
-    width:80%;
-    font-size:14px;
-    margin:4vh auto;
-    box-shadow:0px 10px 20px rgba(231, 155, 97, 0.8);
-    background:rgb(231, 155, 97);
-    color:#fff;
-    }
-    .btn_one:hover {
-        box-shadow:0px 10px 40px rgba(231, 155, 97, 0.8);
-        cursor:pointer;
-    }
-    #contact table tr td {
-        width:100%;
-        display:block;
-    }
-    #inner_table tr td{
-        padding:10px 0px !important;
-    }
-    #contact form input {
-        width:90%;
-        font-size: 14px;
-    }
-    #contact form textarea {
-        width:90%;
-        font-size: 14px;
-    }
-    #work h1 {
-        width:19%;
-        font-size: 28px;
-    }
-    #work h2 {
-        font-size: 20px;
-    }
-    #work p {
-        font-size: 14px;
-    }
-    #work img {
-        width:80%;  
-        margin:4% 10%;
-    }
-    #bio h1 {
-        width:25%;
-        font-size: 28px;
-    }
-    #bio h2 {
-        font-size: 20px;
-    }
-    #bio p {
-        font-size: 14px;
-    }
-    #skills h1 {
-        font-size: 28px;
-    }
-    #skills h2 {
-        font-size: 20px;
-    }
-    #skills p {
-        font-size: 14px;
-    }
-    #skills table {
-        font-size:12px;
-    }
-    #skills table tr td {
-        display: block;
-        width: 100%;
-    }
-    #contact h1 {
-        width:33%;
-        font-size: 28px;
-    }
-    #contact {
-        font-size:14px;
-    }
-    header {
-        position:absolute;
-    }
-    #head_transparency {
-        height:15vh;
-    }
-    #magnify {
-        display: none;
-    }
-}
 
-@media (min-width: 480px) and (max-width:600px){
+@media (max-width:800px){
     #top_part {
         width:100%;
         border:0px;
@@ -600,7 +484,7 @@ button:focus {
 }
 
 
-@media (min-width: 600px) and (max-width: 1000px){
+@media (min-width: 800px) and (max-width: 1000px){
     #photos {
     columns:1;
     column-gap:0%;
