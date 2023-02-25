@@ -343,7 +343,7 @@ button:focus {
     background: rgba(0, 0, 0,0.8); 
 }
 
-@media screen and (max-width:600px){
+@media (max-width:600px){
     #top_part {
         width:100%;
         border:0px;
@@ -474,7 +474,96 @@ button:focus {
     }
 }
 
-@media (max-width: 1000px){
+@media (min-width:600px) and (max-width: 1000px){
+    #photos {
+    columns:1;
+    column-gap:0%;
+    }
+    #photos img {
+        margin:2% 0px;
+    }
+    #photos img:hover {
+        transform: scale(1);
+        cursor: pointer;
+    }
+    #top_part {
+        border:0px;
+    }
+    #about {
+        width:92% !important;
+        height:75vh;
+        padding-top:20vh !important;
+        text-align:center;
+        padding:0px 4%;
+    }
+    #about table {
+        width:100%;
+        margin-top:6vh;
+    }
+    #about table tr td {
+        text-align:center;
+    }
+    .btn_one {
+    padding:6px 30px;
+    width:20%;
+    margin:4vh auto;
+    box-shadow:0px 10px 20px rgba(231, 155, 97, 0.8);
+    background:rgb(231, 155, 97);
+    color:#fff;
+    }
+    .btn_one:hover {
+        box-shadow:0px 10px 40px rgba(231, 155, 97, 0.8);
+        cursor:pointer;
+    }
+    #contact table tr td {
+        width:100%;
+        display:block;
+    }
+    #inner_table tr td{
+        padding:10px 0px !important;
+    }
+    #contact form input {
+        width:90%;
+    }
+    #contact form textarea {
+        width:90%;
+    }
+    #work h1 {
+        width:21%;
+    }
+    #work img {
+        width:40%;
+    }
+    #bio h1 {
+        width:8%;
+    }
+    #skills h1 {
+        width:11%;
+    }
+    #contact h1 {
+        width:21%;
+    }
+    #about {
+        height:80vh;
+    }
+    #header{
+        position:absolute;
+    }
+    #rightImage {
+        height:80vh;
+    }
+    #top_part tr td{
+        width:100%;
+        text-align:center;
+        display:block;
+    }
+    #about tr td{
+        display:inline;
+    }
+}
+
+
+@media (min-width:1000px) and (max-width: 1400px){
     #photos {
     columns:1;
     column-gap:0%;
