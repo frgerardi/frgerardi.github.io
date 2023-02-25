@@ -344,10 +344,11 @@ button:focus {
 }
 
 
-@media (max-width:800px){
+@media (max-width:600px){
     #top_part {
         width:100%;
         border:0px;
+        height: 50vh;
     }
     #top_part tr td{
         width:100%;
@@ -357,7 +358,7 @@ button:focus {
     }
     #about {
         width:92% !important;
-        height:60vh;
+        height:50vh;
         font-size:8px;
         padding-top:20vh !important;
         text-align:center;
@@ -365,7 +366,7 @@ button:focus {
     }
     #rightImage {
         margin-top: 10vh
-        height:60vh;
+        height:50vh;
     }
     #about table {
         width:100%;
@@ -484,7 +485,7 @@ button:focus {
 }
 
 
-@media (min-width: 800px) and (max-width: 1000px){
+@media (min-width: 600px) and (max-width: 1000px){
     #photos {
     columns:1;
     column-gap:0%;
