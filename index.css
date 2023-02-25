@@ -451,19 +451,19 @@ button:focus {
         text-align:center;
         display: none;
         background:transparent;
-        padding:6px 0px;
-        font-size: 8px
+        padding:2px 0px;
+        font-size: 10px
     }
     #navigation {
         display: none;
     }
     #navigation a {
-        color:inherit;
+        color:none;
         text-decoration:none;
-        padding:0px 6px;
-        border-bottom:2px solid transparent;
-        margin-left:4vw;
-        transition:0.4s ease-in-out;
+        padding:0px 2px;
+        border-bottom:none;
+        margin-left:0vw;
+        transition:none;
     }
     #magnify {
         display: none;
