@@ -520,7 +520,7 @@ button:focus {
         font-size: 14px;
     }
     #work h1 {
-        width:19%;
+        width:42%;
         font-size: 28px;
     }
     #work h2 {
@@ -534,7 +534,7 @@ button:focus {
         margin:4% 10%;
     }
     #bio h1 {
-        width:25%;
+        width:14%;
         font-size: 28px;
     }
     #bio h2 {
@@ -544,6 +544,7 @@ button:focus {
         font-size: 14px;
     }
     #skills h1 {
+        width: 20%;
         font-size: 28px;
     }
     #skills h2 {
@@ -560,7 +561,7 @@ button:focus {
         width: 100%;
     }
     #contact h1 {
-        width:33%;
+        width:36%;
         font-size: 28px;
     }
     #contact {
