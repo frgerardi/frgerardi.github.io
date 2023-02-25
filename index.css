@@ -568,6 +568,7 @@ button:focus {
     }
     header {
         position:absolute;
+        font-size:12px;
     }
     #head_transparency {
         height:15vh;
