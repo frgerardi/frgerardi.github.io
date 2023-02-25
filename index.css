@@ -356,14 +356,15 @@ button:focus {
     }
     #about {
         width:92% !important;
-        height:80vh;
+        height:60vh;
         font-size:8px;
         padding-top:20vh !important;
         text-align:center;
         padding:0px 4%;
     }
     #rightImage {
-        height:80vh;
+        margin-top: 10vh
+        height:60vh;
     }
     #about table {
         width:100%;
@@ -512,7 +513,7 @@ button:focus {
         display:block;
     }
     #rightImage {
-        margin-top: 50px;
+        margin-top: 25vh;
         height:80vh;
     }
     #about {
