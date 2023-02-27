@@ -114,7 +114,7 @@ header table {
     height:6vh;
     background:url("extras_/workinprogress.png") center center;
     background-size: contain;
-    background-repeat:repeat-x;
+    background-repeat:no-repeat;
 }
 #intersect_transparency {
     width:100%;
