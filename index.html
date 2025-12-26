@@ -97,21 +97,41 @@
         <br>
         <br>
         <h2> Causal inference </h2>
-            <p> The ....</p>
+            <p>  Causal inference is the field of statistics and ML which aims to determine whether two or more 
+                variables in a system are linked one to another by <b>cause-effect relationships</b>. 
+                <a href="https://www.researchgate.net/publication/23564810_Causality_models_reasoning_and_inference_by_judea_pearl_cambridge_university_press_2000" target="_blank">
+                <img src="https://www.pymc-marketing.io/en/latest/_images/causal_ladder.png" style="float:right" ></img></a>
+                Having an 
+                understanding of the latter unlocks the possibility to produce interventional and, ultimately, 
+                counterfactual scenarios that didn`t happen in reality (Pearl, Causality, 2009; Pearl and Mackenzie, 
+                The Book of Why: The New Science of Cause and Effect, 2018).<br>
+                Assume you have a Structural Causal Model (SCM), which is built on a causal 
+                graph and causal mechanisms, namely either functional forms which describe the generative process of nodes given their progenitors
+                or stochastic distributions for root nodes. In practice, producing interventional scenarios means responding to a question
+                of the kind of 'What would happen if ..' (in the past if dealing with counterfactuals) by intervening on a node, 
+                propagating changes through its successors, possibly resulting to a different system outcome. This makes
+                causal inference key in those industries where there are considerable risks in providing certain treatments, as for 
+                healthcare and finance.  <br>
+                Despite being an extremely powerful tool, real-world data is often imperfect, subject to biases, 
+                unmeasured confounding, and structural complexity, leading to possible threats to the reliability
+                and robustness to these class of methods. Whether the causal graph is obtained from causal discovery, given the data at hand, or is defined 
+                via domain knowledge only, ensuring the reliability of the framework starts with the validation of the graph against random. <br>
+                <a href="https://www.pywhy.org/dowhy/v0.14/" target="_blank">DoWhy</a> is the python causal inference library I used 
+                to build an inference framework targeting the cause-effect relationship between customer satisfaction and churn behaviour.
+                In such a problem, where satisfaction is one of the most subjective data, ensuring a valid graph is certainly challenging.
+        </p>
         <br>
         <h2> Probabilistic regression </h2>
             <p> Traditionally, when dealing with a regression problem, the typical task is to provide a point estimate for each input, where a plethora of models is available, 
                 from standard linear regression to tree-based algorithms. However, when dealing with real-world data, these point prediction hide an important aspect, which is 
                 uncertainty. </p>
                 <a href="https://github.com/stanfordmlgroup/ngboost/tree/master" target="_blank">
-                <img src="https://github.com/stanfordmlgroup/ngboost/blob/master/figures/toy.gif?raw=true" style="float:left" >
-                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption></img></a>
+                <img src="https://github.com/stanfordmlgroup/ngboost/blob/master/figures/toy.gif?raw=true" style="float:left" ></img></a>
             <p> To address the estimation of the latter, <a href="https://arxiv.org/abs/1910.03225">Duan et al. [2019]</a> developed the <b>Natural Gradient Boosting</b>
                 algorithm (NGBoost), which aims to provide probabilistic prediction via gradient boosting. Having knowledge of the uncertainty in a regression model, enables better
                 decision-making, which can be crucial when dealing with medical cases for instance. Their code is publicly available as a python library 
-                (<a href="https://github.com/stanfordmlgroup/ngboost">github repo</a>).<br>
-
-                During my internship, I had the chance to work with this kind of algorithms, developing extensions useful to the project I was assigned to. </p>
+                (<a href="https://github.com/stanfordmlgroup/ngboost">github repo</a>, from which the gif on the left was taken).</p>
+            <p> During my internship, I had the chance to work with this kind of algorithms, developing extensions useful to the project I was assigned to. </p>
         <br>
         <h2> Deepfakes </h2>
         <a href="https://en.wikipedia.org/wiki/Variational_autoencoder" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/VAE_Basic.png/425px-VAE_Basic.png" style="float:right"></a>
