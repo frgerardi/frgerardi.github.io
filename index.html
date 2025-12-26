@@ -98,7 +98,7 @@
         <br>
         <h2> Causal inference </h2>
             <a href="https://www.researchgate.net/publication/23564810_Causality_models_reasoning_and_inference_by_judea_pearl_cambridge_university_press_2000" target="_blank">
-                <img src="https://www.pymc-marketing.io/en/latest/_images/causal_ladder.png" style="float:right"></img></a>
+                <img src="https://www.pymc-marketing.io/en/latest/_images/causal_ladder.png" style="float:right" width="50%" height="50%"></img></a>
             <p>  Causal inference is the field of statistics and ML which aims to determine whether two or more 
                 variables in a system are linked one to another by <b>cause-effect relationships</b>. Having an 
                 understanding of the latter unlocks the possibility to produce interventional and, ultimately, 
@@ -108,13 +108,14 @@
                 graph and causal mechanisms, namely either functional forms which describe the generative process of nodes given their progenitors
                 or stochastic distributions for root nodes. In practice, producing interventional scenarios means responding to a question
                 of the kind of 'What would happen if ..' (in the past if dealing with counterfactuals) by intervening on a node, 
-                propagating changes through its successors, possibly resulting to a different system outcome. This makes
+                propagating changes through its successors, possibly resulting in a different system outcome. This makes
                 causal inference key in those industries where there are considerable risks in providing certain treatments, as for 
                 healthcare and finance.  <br>
                 Despite being an extremely powerful tool, real-world data is often imperfect, subject to biases, 
                 unmeasured confounding, and structural complexity, leading to possible threats to the reliability
-                and robustness to these class of methods. Whether the causal graph is obtained from causal discovery, given the data at hand, or is defined 
-                via domain knowledge only, ensuring the reliability of the framework starts with the validation of the graph against random. <br>
+                and robustness to this class of methods. Whether the causal graph is obtained from causal discovery, given the data at hand, or is defined 
+                via domain knowledge only, ensuring the reliability of the framework starts with the validation of the graph, meaning it is 
+                informative for the system and is representative for the data at hand. <br>
                 <a href="https://www.pywhy.org/dowhy/v0.14/" target="_blank">DoWhy</a> is the python causal inference library I used 
                 to build an inference framework targeting the cause-effect relationship between customer satisfaction and churn behaviour.
                 In such a problem, where satisfaction is one of the most subjective data, ensuring a valid graph is certainly challenging.
